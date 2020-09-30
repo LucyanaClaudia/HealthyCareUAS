@@ -1,0 +1,105 @@
+body{
+    margin: auto;
+    background-color: #d7fcff;
+}
+.logo{
+    padding-left: 520px;
+}
+.logo img{
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    justify-content:space-evenly;
+}
+.home a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.registrasi a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.login a{
+    color: #000000;
+    text-decoration: none underline;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.feedback a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.rating a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.forum a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.title{
+    margin-left: 710px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.formLogin{
+    height: 380px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#form-login{
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 225px;
+    position: relative;
+    margin-top: 45px;
+    transform: translate(115%, 0%);
+    opacity: 80%;
+}
+#username{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#password{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#form-submit{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    transform: translate(108%);
+}
+.footer{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}

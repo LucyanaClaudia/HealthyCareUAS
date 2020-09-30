@@ -1,0 +1,88 @@
+body{
+    margin: auto;
+    background-color: #d7fcff;
+}
+.logo{
+    padding-left: 520px;
+}
+.logo img{
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    justify-content:space-evenly;
+}
+.home a{
+    color: #000000;
+    text-decoration: none underline;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.registrasi a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+
+}
+.login a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.feedback a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.rating a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.forum a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.isi{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+.desc{
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;   
+    font-family: 'Segoe UI'; 
+}
+.desc1{
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;    
+    font-family:'Segoe UI';
+}
+.desc2{
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;    
+    font-family:'Segoe UI';
+}
+.footer{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}

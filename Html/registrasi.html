@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/registrasiStyle.css">
+    <title>Healthy Care | Registrasi</title>
+</head>
+<body>
+    <script src="../JS/registrasi.js"></script>
+
+    <div class="logo">
+        <img src="../Assets/logo.png" alt="">
+    </div> 
+    
+    <div class="navigation">
+        <div class="home">
+            <a href="../index.html">Home</a>
+        </div>
+
+        <div class="registrasi">
+            <a href="registrasi.html">Registrasi</a>
+        </div>
+
+        <div class="login">
+            <a href="login.html">Login</a>
+        </div>
+
+        <div class="feedback">
+            <a href="feedback.html">Feedback</a>
+        </div>
+
+        <div class="rating">
+            <a href="rating.html">Rating</a>
+        </div>
+
+        <div class="forum">
+            <a href="forum.html">Forum</a>
+        </div>
+    </div>
+    <div class="title">
+        R E G I S T E R
+    </div>
+    <div class="formRegis">
+        <form id="form-registrasi" name="form-registrasi" method="post" onsubmit="return formRegistrasi()"
+        onload="document.form-registrasi.form-fullname.focus()">
+           <input type="text" name="form-fullname" id="form-fullname" placeholder="Fullname"><br>
+            <input type="text" name="form-username" id="form-username" placeholder="Username"><br>
+            <input type="password" name="form-password" id="form-password" placeholder="Password"><br>
+            <div class="gender">
+                <input class="radiobutton" type="radio" name="form-gender" id="male" value="male"> Male
+                <input class="radiobutton" type="radio" name="form-gender" id="female" value="female"> Female
+            </div> <br>
+            <input type="text" name="dob" id="dob" placeholder="Tanggal Lahir">
+            <input type="text" name="form-email" id="form-email" placeholder="Email"><br>
+            <input type="button" name="form-submit" id="form-submit" value="submit" onclick="formRegistrasi()">
+        </form>
+    </div>
+    <div class="footer">
+        Copyright &copy; 2020 Healthy Care, All Rights Reserved.
+    </div>
+</body>
+</html>

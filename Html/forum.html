@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/forumStyle.css">
+    <title>Healthy Care | Forum</title>
+</head>
+<body>
+    <script src="../JS/forum.js"></script>
+    <div class="logo">
+        <img src="../Assets/logo.png" alt="">
+    </div>  
+
+    <div class="navigation">
+        <div class="home">
+            <a href="../index.html">Home</a>
+        </div>
+
+        <div class="registrasi">
+            <a href="registrasi.html">Registrasi</a>
+        </div>
+
+        <div class="login">
+            <a href="login.html">Login</a>
+        </div>
+
+        <div class="feedback">
+            <a href="feedback.html">Feedback</a>
+        </div>
+
+        <div class="rating">
+            <a href="rating.html">Rating</a>
+        </div>
+
+        <div class="forum">
+            <a href="forum.html">Forum</a>
+        </div>
+    </div>
+    <div class="title">
+        F O R U M
+    </div>
+        <div class="formForum">
+            <form id="form-forum"name="form-Forum" method="post" onsubmit="return formForum()"
+            onload="document.formForum.form-subject.focus()">
+                <input type="text" name="form-subject" id="form-subject" placeholder="Subject"><br>
+                <input type="text" name="form-name" id="form-name" placeholder="Name"><br>
+                <textarea name="message" name="form-message" id="form-message"placeholder="Message" style="height: 150px; width: 410px;"></textarea> <br>
+                <input type="button" id="form-submit" value="submit" onclick="formForum()">
+            </form>
+        </div>
+    <div class="footer">
+        Copyright &copy; 2020 Healthy Care, All Rights Reserved.
+    </div>
+</body>
+</html>

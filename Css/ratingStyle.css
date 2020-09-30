@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    background-color: #d7fcff;
+}
+.logo{
+    padding-left: 520px;
+}
+.logo img{
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    justify-content:space-evenly;
+}
+.home a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.registrasi a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.login a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.feedback a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.rating a{
+    color: #000000;
+    text-decoration: none underline;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.forum a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+.title{
+    margin-left: 710px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.formRating{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 380px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 550px;
+    opacity: 80%;
+}
+.ratingRate{
+    direction: rtl;
+    margin-right: 60px;
+}
+.ratingRate input{
+    display: none;
+}
+.ratingRate label{
+    display: inline-block;
+    width: 70px;
+    position: relative;
+    cursor: pointer;
+}
+.ratingRate label:before{
+    content: "\2605";
+    position: absolute;
+    font-size: 70px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+.ratingRate label:after{
+    content: "\2605";
+    position: absolute;
+    font-size: 70px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: #b3d0DA;
+    opacity: 0;
+}
+.ratingRate label:hover:after,
+.ratingRate label:hover ~ label:after,
+.ratingRate input:checked ~ label:after{
+    opacity: 1;
+}
+
+#alasan{
+    margin-left: 0px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#form-submit{
+    height: 35px;
+    width: 150px;
+    margin-left: 10px;
+    text-align: center;
+    transform: translate(108%);
+} 
+.footer{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+} 
